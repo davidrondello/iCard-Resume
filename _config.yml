@@ -1,9 +1,9 @@
 # Site settings
-title: ddbullfrog's blog
-description: ddbullfrog's blog
+title: David Rondello's Resume
+description: David Rondello's Resume
 favicon: /iCard-Resume/assets/img/avatar.JPG
-baseurl: http://ddbullfrog.github.io/iCard-Resume
-url: http://ddbullfrog.github.io/iCard-Resume
+baseurl: /iCard-Resume
+url: http://david.rondello.info/iCard-Resume
 rss_url: /iCard-Resume/pages/atom.xml
 
 # Build settings
@@ -11,69 +11,87 @@ markdown: kramdown
 
 # Author settings
 author:
-  name: Dong Liang
-  title: Java Developer
-  address: Auckland, New Zealand
-  email: dongg.liang@gmail.com
-  link: http://ddbullfrog.com
+  name: David Rondello
+  title: IT Project Director
+  address: 28 chemin du grand clos, 44320, Frossay, France
+  email: david.rondello@gmail.com
+  link: http://david.rondello.info
   weibo:
-  github: ddbullfrog
-  linkedin: ddbullfrog
-  twitter: ddbullfrog
-  gavatar: /iCard-Resume/assets/img/avatar.JPG
+  github: 
+  linkedin: davidrondello
+  twitter: davidrondello
+  gravatar: /iCard-Resume/assets/img/avatar.JPG
   workHistory:
     - work1:
-      company: Finzsoft Solutions Ltd
-      location: Auckland, New Zealand
-      title: Java Developer
-      started: 2014
-      duration: (2014 - Present)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: Arioflow (ex MGStream)
+      location: Nantes, France
+      title: Professional Services Director / Managing Director US
+      started: 2011
+      duration: (11/2011 - Present)
+      description: Head of Professional Services and Customer support department for a cloud cloud-based collaboration platform for paperless field asset inspection.<br/>Head of the US subsidiary.
     - work2:
-      company: Agfa HealthCare
-      location: Shanghai, China
-      title: Java Developer
-      started: 2012
-      duration: (2012 - 2014)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: sortYflY.com
+      location: Nantes, France
+      title: Co-founder
+      started: 2011
+      duration: (01/2011 - 09/2011)
+      description: "Founding of travel planning web site for teams"
     - work3:
-      company: Citigroup Services and Technology (China) Limited
-      location: Shanghai, China
-      title: Java Developer
-      started: 2009
-      duration: (2009 - 2012)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: Domidoc
+      location: Nantes, France
+      title: Co-founder
+      started: 2010
+      duration: (04/2010 - 12/2010)
+      description: "Founding of Home health care company"
+    - work4:
+      company: Capgemini
+      location: Sophia Antipolis, France
+      title: Project Manager
+      started: 2002
+      duration: (08/2002 - 03/2010)
+      description: Project Management for Amadeus, Hewlett Packard, Alcatel Space, Compaq
+    - work5:
+      company: M-Pixel
+      location: Sophia Antipolis, France
+      title: Project Manager
+      started: 2001
+      duration: (02/2001 - 04/2002)
+      description: Project Management of an Image application on mobile phones, PDA and PC
+    - work6:
+      company: Renault
+      location: Guyancourt, France
+      title: Project Manager
+      started: 1996
+      duration: (10/1996 - 01/2001)
+      description: Project Management of applications for generation and visualization of computer generated images and movies
   educationHistory:
     - education1:
-      organization: Northeastern University
-      degree: Bachelor
-      major: Software Engineering
-      started: 2005
-      duration: (2005 - 2009)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      organization: Ecole Centrale de Lille
+      degree: Diplôme d'Ingénieur
+      major: Project Management
+      started: 1992
+      duration: (1992 - 1995)
+      description: French equivalent to a Master’s Degree in Engineering.<br/>Research essay on New Information Technology influence on company organization
   languages:
     - language1:
-      name: Chinese
+      name: French
       proficiency: Native
     - language2:
       name: English
-      proficiency: Professional
-    - language3:
-      name: Japanese
-      proficiency: Limit
-  programmingSkills:
+      proficiency: Fluent
+  functionalSkills:
     - skill1:
-      name: HTML
+      name: Project Management (cost, planning, risk, customer relationship)
       percentage: 100%
     - skill2:
-      name: Bootstrap
+      name: Team management & recruitment
       percentage: 90%
     - skill3:
-      name: JavaScript
-      percentage: 80%
-    - skill4:
-      name: AngularJS
-      percentage: 80%
-    - skill5:
-      name: Java/Java EE
+      name: Business-case, Business-plan writing
       percentage: 90%
+    - skill4:
+      name: Pre-sales on IT projects
+      percentage: 100%
+    - skill5:
+      name: Business Development (France, UK, US)
+      percentage: 80%

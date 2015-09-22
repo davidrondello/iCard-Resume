@@ -87,19 +87,19 @@ layout: default
             {% endif %}
         </div>
         <div class="col-md-4">
-            {% if site.author.programmingSkills %}
-                <h3 class="title with-icon"><span class="fa fa-code cat-title"></span> Programming Skills</h3>
+            {% if site.author.functionalSkills %}
+                <h3 class="title with-icon"><span class="fa fa-code cat-title"></span> Functional Skills</h3>
                 <div class="grid-block">
                     <ul class="list-unstyled list-skills">
-                        {% for programmingSkill in site.author.programmingSkills %}
+                        {% for functionalSkill in site.author.functionalSkills %}
                             <li>
-                                {% if programmingSkill.name %}
-                                    <span class="caption-skill">{{ programmingSkill.name }}</span>
+                                {% if functionalSkill.name %}
+                                    <span class="caption-skill">{{ functionalSkill.name }}</span>
                                 {% endif %}
-                                {% if programmingSkill.percentage %}
+                                {% if functionalSkill.percentage %}
                                     <div class="progress">
-                                        <div class="progress-bar" style="width: {{ programmingSkill.percentage }}">
-                                            <span>{{ programmingSkill.percentage }} </span>
+                                        <div class="progress-bar" style="width: {{ functionalSkill.percentage }}">
+                                            <span>{{ functionalSkill.percentage }} </span>
                                         </div>
                                     </div>
                                 {% endif %}
